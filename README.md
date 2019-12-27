@@ -2,7 +2,7 @@
 
 In this repository, we can find the implementations for the *Workshop* project of the *Machine Learning* course. Each folder contains the code corresponding to the section of the article with the same name.
 
-### Structure
+### Structure of the repository
 * CLASS CRITERION.
   * *MNIST_pretrained.ipynb*: pretraining of the neural network using the MNIST dataset.
   * *MNSIT_pretrained_model.h5*: file that stores the pretrained model obtained in the above notebook.
