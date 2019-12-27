@@ -2,6 +2,12 @@
 
 In this repository, we can find the implementations for the *Workshop* project of the *Machine Learning* course. Each folder contains the code corresponding to the section of the article with the same name.
 
+### Authors
+
+  [Laia Domingo Colomer](https://github.com/laiadc)\
+  [Núria Sánchez Font](https://github.com/NuriaSF)  
+
+
 ### Structure of the repository
 * CLASS CRITERION
   * *MNIST_pretrained.ipynb*: pretraining of the neural network using the MNIST dataset.
@@ -29,7 +35,7 @@ In this repository, we can find the implementations for the *Workshop* project o
       * *target_discriminator*
     In order to run the model, the source_encoder model mmust be used for the source data and the target_classifier must be  
     used for the target data.
-    
+
 ### Instructions to load a model
 
 In order to load a trained model, one can use the following code:
@@ -47,5 +53,3 @@ model = model_from_json(loaded_model_json)
 \# load weights into new model
 
 model.load_weights("example_model.h5")
-    
-      
