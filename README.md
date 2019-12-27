@@ -12,6 +12,10 @@ In this repository, we can find the implementations for the *Workshop* project o
 * STATISTIC CRITERION
   * *usps_dataset.h5*: file that stores the USPS dataset (same as above).
   * *Statistic_Criterion.ipynb*: performs the statistic criterion approach
+  * *Trained_models*: Contains the trained models from the statistic critetion method. For each model, there is a .json file
+  containing the model structure and a .h5 file containing the weights. This folder contains the following models:
+      * *model_source*
+      * *model_target*
 
 * ADVERSIAL METHODS
   * *usps_dataset.h5*: file that stores the USPS dataset (same as above).
