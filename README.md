@@ -31,11 +31,17 @@ In this repository, we can find the implementations for the *Workshop* project o
 In order to load a trained model, one can use the following code:
 
 \# load json and create model
+
 json_file = open("example_model.json", 'r')
+
 loaded_model_json = json_file.read()
+
 json_file.close()
+
 model = model_from_json(loaded_model_json)
+
 \# load weights into new model
+
 model.load_weights("example_model.h5")
     
       
