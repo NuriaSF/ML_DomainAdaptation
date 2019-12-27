@@ -17,7 +17,7 @@ In this repository, we can find the implementations for the *Workshop* project o
       * *model_source*
       * *model_target*
 
-* ADVERSIAL METHODS
+* ADVERSIAL METHOD
   * *usps_dataset.h5*: file that stores the USPS dataset (same as above).
   * *ADDA.ipynb*: performs ADDA method with tricks to stabilize the training process and ensure convergence.
   * *Trained_models*: Contains the trained models from the ADDA method. For each model, there is a .json file containing the        model structure and a .h5 file containing the weights. This folder contains the following models:
